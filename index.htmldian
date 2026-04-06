@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Wisata Alam Indonesia</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c7a7b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .card {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 300px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Wisata Alam Indonesia</h1>
+    <p>Menjelajahi Keindahan Alam Nusantara</p>
+</header>
+
+<section>
+    <h2>Profil Usaha</h2>
+    <p>
+        Wisata Alam Indonesia adalah layanan pariwisata yang menyediakan perjalanan ke berbagai destinasi alam terbaik seperti danau, air terjun, pantai, dan hutan. Kami berkomitmen untuk memberikan pengalaman wisata yang menyenangkan dan berkesan bagi setiap pengunjung.
+    </p>
+    <p>
+        Kami menawarkan berbagai paket wisata dengan harga terjangkau dan pelayanan terbaik. Dengan tim yang berpengalaman, kami memastikan setiap perjalanan dilakukan dengan aman, nyaman, dan terorganisir dengan baik.
+    </p>
+    <p>
+        Selain itu, kami juga mendukung pariwisata lokal dengan memperkenalkan keindahan alam Indonesia kepada wisatawan domestik maupun mancanegara. Kami percaya bahwa kekayaan alam Indonesia harus dijaga dan dilestarikan.
+    </p>
+    <p>
+        Dengan pelayanan yang ramah dan profesional, kami berharap dapat menjadi pilihan utama bagi wisatawan yang ingin menikmati keindahan alam Indonesia secara langsung dan mendapatkan pengalaman liburan yang tak terlupakan.
+    </p>
+</section>
+
+<section>
+    <h2>Destinasi Wisata</h2>
+    <div class="gallery">
+
+        <div class="card">
+            <img src="https://id.images.search.yahoo.com/search/images;_ylt=Awrx.LQcJ9Np9kAlPurNQwx.;_ylu=c2VjA3NlYXJjaARzbGsDYXNzaXN0;_ylc=X1MDMjExNDczMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDc2EtZ3Atc2VhcmNoBGdwcmlkA1F1eUdCWUdqUnJHTkRuOFpvMW14MEEEbl9yc2x0AzAEbl9zdWdnAzEwBG9yaWdpbgNpZC5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMQRwcXN0cgNkYW5hdSB0b2JhIARwcXN0cmwDMTEEcXN0cmwDMTgEcXVlcnkDZGFuYXUlMjB0b2JhJTIwc2Ftb3NpcgR0NXBvcwMxBHRfc3RtcAMxNzc1NDQ1OTY3BHVzZV9jYXNlAw--?p=danau+toba+samosir&fr=mcafee&fr2=sa-gp-search&ei=UTF-8&x=wrt&type=E210ID91215G0#id=0&iurl=https%3A%2F%2Fkissparry.files.wordpress.com%2F2018%2F06%2Fdanau-toba-pulau-samosir.jpg&action=click">
+            <h3>Danau Toba</h3>
+            <p>Danau terbesar di Indonesia dengan panorama pegunungan yang indah.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://id.images.search.yahoo.com/search/images;_ylt=Awrx.LTaJtNp72cmJb_NQwx.;_ylu=c2VjA3NlYXJjaARzbGsDYXNzaXN0;_ylc=X1MDMjExNDczMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDc2EtZ3Atc2VhcmNoBGdwcmlkA3lIUDRLSjB5UmR5bXZwWHVRTVI1LkEEbl9yc2x0AzAEbl9zdWdnAzEwBG9yaWdpbgNpZC5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMQRwcXN0cgNhaXIgdGVyanVuIHNpcGlzBHBxc3RybAMxNgRxc3RybAMyMgRxdWVyeQNhaXIlMjB0ZXJqdW4lMjBzaXBpc28tcGlzbwR0NXBvcwMxBHRfc3RtcAMxNzc1NDQ1OTExBHVzZV9jYXNlAw--?p=air+terjun+sipiso-piso&fr=mcafee&fr2=sa-gp-search&ei=UTF-8&x=wrt&type=E210ID91215G0">
+            <h3>Air Terjun Sipiso-piso</h3>
+            <p>Air terjun tinggi dengan pemandangan spektakuler di Sumatera Utara.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://id.images.search.yahoo.com/search/images;_ylt=Awrx.LRmJtNpevwlcCfNQwx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDczMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANGdE10WXA5TlRleWdGS3FPZmZVenpBBG5fcnNsdAMwBG5fc3VnZwM0BG9yaWdpbgNpZC5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMTgEcXVlcnkDYWlyJTIwdGVyanVuJTIwc2lib2xnYQR0X3N0bXADMTc3NTQ0NTc4MA--?p=air+terjun+sibolga&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210ID91215G0">
+            <h3>Air Terjun Sibolga</h3>
+            <p>Air terjun alami yang masih asri dan cocok untuk wisata alam.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://id.images.search.yahoo.com/search/images?p=tangkahan+langkat&fr=mcafee&type=E210ID91215G0&imgurl=https%3A%2F%2Ftravelspromo.com%2Fwp-content%2Fuploads%2F2020%2F09%2FTangkahan-Bah-Alip-di-Tangkahan-Cru-Langkat-Sumatera-Utara-imamnabikadaulay.jpg#id=0&iurl=https%3A%2F%2Ftravelspromo.com%2Fwp-content%2Fuploads%2F2020%2F09%2FTangkahan-Bah-Alip-di-Tangkahan-Cru-Langkat-Sumatera-Utara-imamnabikadaulay.jpg&action=click">
+            <h3>Tangkahan</h3>
+            <p>Wisata alam dengan gajah dan sungai jernih di tengah hutan.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://id.images.search.yahoo.com/search/images;_ylt=Awrx.LSZJtNpPiYn6hDNQwx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDczMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANhZ0dBdTlILlRkNmgyeVQyVVVtY1FBBG5fcnNsdAMwBG5fc3VnZwMwBG9yaWdpbgNpZC5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMjMEcXVlcnkDcGFudGFpJTIwYmFsaSUyMHBhc2lyJTIwcHV0aWgEdF9zdG1wAzE3NzU0NDU4NDU-?p=pantai+bali+pasir+putih&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210ID91215G0">
+            <h3>Bali View</h3>
+            <p>Pantai Bali dengan pasir putih dan laut biru yang memukau.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Kontak</h2>
+    <p>📞 No HP: 081264953501</p>
+    <p>📧 Email: wisataalam@gmail.com</p>
+    <p>📍 Lokasi: Indonesia</p>
+</section>
+
+<footer>
+    <p>© 2026 Wisata Alam Indonesia</p>
+</footer>
+
+</body>
+</html>
