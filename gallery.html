@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery - Manajemen Bisnis</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            margin: 0;
+        }
+
+        header {
+            background-color: #c2185b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #880e4f;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            margin: 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 25px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #880e4f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Gallery Kegiatan</h1>
+        <p>Dokumentasi Kegiatan Mahasiswa Manajemen Bisnis</p>
+    </header>
+
+    <!-- NAVIGASI -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="program.html">Program</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- KONTEN -->
+    <div class="container">
+
+        <h2 style="text-align:center;">Kegiatan Mahasiswa</h2>
+
+        <div class="gallery">
+
+           <div class="card">
+    <img src="d.images.search.yahoo.com/search/images;_ylt=Awrx.LRVyNxpVrg.WtTNQwx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDczMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANFZzguVUVfNVJ0bTdub0FKUFNaVnRBBG5fcnNsdAMwBG5fc3VnZwMwBG9yaWdpbgNpZC5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMjQEcXVlcnkDc2VtaW5hciUyMGJpc25pcyUyMHBvbG1lZCUyMG1iBHRfc3RtcAMxNzc2MDc3MDE4?p=seminar+bisnis+polmed+mb&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210ID91215G0#id=9&iurl=https%3A%2F%2Flpmneraca.com%2Fwp-content%2Fuploads%2F2023%2F10%2FWhatsApp-Image-2023-10-23-at-20.11.30.jpeg&action=click" alt="Seminar">
+    <p>Seminar Bisnis</p>
+</div>
+
+<div class="card">
+    <img src="https://id.images.search.yahoo.com/search/images;_ylt=AwrKAnydyNxpRog4Ix_NQwx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDczMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZAM3QzQ2RFVweVF0T3hodUdMQXFudjVBBG5fcnNsdAMwBG5fc3VnZwMwBG9yaWdpbgNpZC5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMjcEcXVlcnkDZGlza3VzaSUyMG1iJTIwcG9sbWVkJTIwbWFoYXNpc3dhBHRfc3RtcAMxNzc2MDc3MDk3?p=diskusi+mb+polmed+mahasiswa&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210ID91215G0#id=5&iurl=https%3A%2F%2Ffpk.walisongo.ac.id%2Fwp-content%2Fuploads%2F2023%2F11%2FWhatsApp-Image-2023-11-14-at-11.34.51.jpeg&action=click" alt="Diskusi">
+    <p>Diskusi Kelompok</p>
+</div>
+
+<div class="card">
+    <img src="https://id.images.search.yahoo.com/search/images;_ylt=Awrx.LTlyNxpTaw6FSDNQwx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDczMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZAMEbl9yc2x0AzAEbl9zdWdnAzAEb3JpZ2luA2lkLmltYWdlcy5zZWFyY2gueWFob28uY29tBHBvcwMwBHBxc3RyAwRwcXN0cmwDMARxc3RybAMyNwRxdWVyeQNwcmVzZW50YXNpJTIwbWFoYXNpc3dhJTIwcG9sbWVkBHRfc3RtcAMxNzc2MDc3MTg1?p=presentasi+mahasiswa+polmed&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210ID91215G0#id=24&iurl=https%3A%2F%2Fbuseronline.com%2Fwp-content%2Fuploads%2F2025%2F06%2FIMG-20250611-WA0022.jpg&action=click" alt="Presentasi">
+    <p>Presentasi Mahasiswa</p>
+</div>
+
+<div class="card">
+    <img src="https://id.images.search.yahoo.com/search/images;_ylt=AwrKAnwCydxpRog4cCjNQwx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDczMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANJVTg4NWRZcVFtQ2RCZXgueVFlMzFBBG5fcnNsdAMwBG5fc3VnZwMwBG9yaWdpbgNpZC5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMTcEcXVlcnkDbWFnYW5nJTIwcG9sbWVkJTIwJTIwbWIEdF9zdG1wAzE3NzYwNzcyNzE-?p=magang+polmed++mb&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E210ID91215G0#id=17&iurl=https%3A%2F%2Fpolmed.pl%2Fzdrowie%2Fwp-content%2Fuploads%2F2023%2F03%2Fwyprawa-glowny.png&action=click" alt="Magang">
+    <p>Kegiatan Magang</p>
+</div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Manajemen Bisnis</p>
+    </footer>
+
+</body>
+</html>
